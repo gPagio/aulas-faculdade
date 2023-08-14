@@ -1,0 +1,14 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\bin\Debug\net7.0\LP1.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\bin\Debug\net7.0\LP1.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\bin\Debug\net7.0\LP1.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\bin\Debug\net7.0\LP1.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\bin\Debug\net7.0\LP1.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\refint\LP1.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\ref\LP1.dll

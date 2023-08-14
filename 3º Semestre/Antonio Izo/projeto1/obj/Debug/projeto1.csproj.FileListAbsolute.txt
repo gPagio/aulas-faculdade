@@ -1,0 +1,8 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\bin\Debug\projeto1.exe.config
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\bin\Debug\projeto1.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\bin\Debug\projeto1.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\obj\Debug\projeto1.csproj.AssemblyReference.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\obj\Debug\projeto1.csproj.SuggestedBindingRedirects.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\obj\Debug\projeto1.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\obj\Debug\projeto1.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\projeto1\obj\Debug\projeto1.pdb
