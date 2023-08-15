@@ -12,3 +12,17 @@ C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\refint\LP1.dll
 C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.pdb
 C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\LP1.genruntimeconfig.cache
 C:\Users\guilh\Documents\GitHub\Faculdade\LP1\obj\Debug\net7.0\ref\LP1.dll
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\bin\Debug\net7.0\LP1.exe
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\bin\Debug\net7.0\LP1.deps.json
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\bin\Debug\net7.0\LP1.runtimeconfig.json
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\bin\Debug\net7.0\LP1.dll
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\bin\Debug\net7.0\LP1.pdb
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.AssemblyInfoInputs.cache
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.AssemblyInfo.cs
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.csproj.CoreCompileInputs.cache
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.dll
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\refint\LP1.dll
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.pdb
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\LP1.genruntimeconfig.cache
+c:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\2023-08-08\LP1\obj\Debug\net7.0\ref\LP1.dll

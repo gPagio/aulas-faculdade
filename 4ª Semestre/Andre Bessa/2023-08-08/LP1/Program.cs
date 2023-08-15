@@ -8,8 +8,9 @@ public class Teste{
 
         ArrayList numeros = new();
 
-        Console.Write("Informe o tamanho da lista:\n");
+        Console.WriteLine("Informe o tamanho da lista:");
         tamanhoArray = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(" ");
 
         if(tamanhoArray > 1){
             quantidadeNumero = "numeros";
@@ -17,20 +18,23 @@ public class Teste{
             quantidadeNumero = "numero";
         }
 
-        Console.WriteLine($"Digite {tamanhoArray} {quantidadeNumero}:\n");
+        Console.WriteLine($"Digite {tamanhoArray} {quantidadeNumero}:");
 
         while(numeros.Count < tamanhoArray){
             numeros.Add(Convert.ToInt32(Console.ReadLine()));
         }
+        Console.WriteLine(" ");
 
-        Console.Write("Escolha um número para buscar:\n");
+        Console.WriteLine("Escolha um número para buscar:");
         numeroBuscado = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(" ");
 
         while(contador < numeros.Count){
-            if(numeros.IndexOf(numeros[contador]).Equals(numeroBuscado)){
-                Console.WriteLine($"Numero encontrado na posicao {contador}\n");
-                contador++;
+            if(numeros[contador]!.Equals(numeroBuscado)){
+                Console.WriteLine($"Numero encontrado na posicao {contador}");
             }
+            contador++;
         }
+
     }
 }

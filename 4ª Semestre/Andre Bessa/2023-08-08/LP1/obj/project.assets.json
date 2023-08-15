@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\LP1\\LP1.csproj",
+      "projectUniqueName": "c:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\2023-08-08\\LP1\\LP1.csproj",
       "projectName": "LP1",
-      "projectPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\LP1\\LP1.csproj",
+      "projectPath": "c:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\2023-08-08\\LP1\\LP1.csproj",
       "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\LP1\\obj\\",
+      "outputPath": "c:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\2023-08-08\\LP1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
