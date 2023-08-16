@@ -11,7 +11,7 @@
 
 ## 🚀 Sobre o Curso
 
-Apaixonado por computadores desde cedo, sempre fui curioso em saber como funcionavam todos aqueles códigos encontrados nas longas horas de exploração pelas pastas do diretório "C:" do Windows. Meu primeiro pé em progamação foi com VBA em planilhas de Excel, vendo a imensidade de coisas que podia criar com linha de código. Desse forma optei por seguir carreira como programador e o curso de Sistemas de Informação foi minha escolha visando seguir meu sonho.
+Apaixonado por computadores desde cedo, sempre fui curioso em saber como funcionavam todos aqueles códigos encontrados nas longas horas de exploração pelas pastas do diretório "C:" do Windows. Meu primeiro pé em progamação foi com VBA em planilhas de Excel, vendo a imensidade de coisas que podia criar com linhas de código. Desse forma optei por seguir carreira como programador e o curso de Sistemas de Informação foi minha escolha visando seguir meu sonho.
 
 ## 🔭 Sobre o repositório
 
