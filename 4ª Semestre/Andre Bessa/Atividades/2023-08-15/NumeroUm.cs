@@ -38,6 +38,7 @@ public class NumeroUm{
 
                             if (nomeValido == false){
                                 Console.WriteLine("Nome inválido!");
+                                Console.WriteLine(" ");
                             } else {
                                 nomePessoa.Add(nomeParaAdicionar);
                                 Console.WriteLine("");
@@ -51,6 +52,7 @@ public class NumeroUm{
 
                             if (idadeValida == false){
                                 Console.WriteLine("Idade inválida!");
+                                Console.WriteLine(" ");
                             } else {
                                 idadePessoa.Add(idadeParaAdicionar);
                                 Console.WriteLine("");
