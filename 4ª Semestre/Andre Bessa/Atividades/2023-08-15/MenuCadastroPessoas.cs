@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Text.RegularExpressions;
 
-public class NumeroUm{
+public class MenuCadastroPessoas{
     
     public static void Main(string[] args){
     

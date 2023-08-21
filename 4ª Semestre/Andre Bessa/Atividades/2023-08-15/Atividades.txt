@@ -1,0 +1,12 @@
+﻿1 - Olhar arquivo MenuCadastroPessoas.cs
+
+2 - O que é o .NET e o CLR?
+O .NET é uma plataforma de desenvolvimento de software da Microsoft que oferece ferramentas e estruturas para criar uma variedade de 
+aplicativos em diferentes plataformas, como Windows, macOS e Linux. Ele inclui o .NET Framework (para aplicativos Windows), 
+o .NET Core (multiplataforma), o ASP.NET (para aplicativos web) e outros componentes. O .NET permite o desenvolvimento eficiente 
+de aplicativos desktop, móveis e web, oferecendo uma gama de recursos avançados, segurança e suporte à comunidade de desenvolvedores. 
+Com o surgimento do .NET 5 e versões posteriores, a plataforma foi unificada para fornecer uma solução coesa para desenvolvimento 
+multiplataforma e escalável.
+O CLR
+
+3 - 
