@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {}
+    "c:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {
+    "c:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
+        "projectUniqueName": "c:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
         "projectName": "2023-08-15",
-        "projectPath": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
+        "projectPath": "c:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
         "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\obj\\",
+        "outputPath": "c:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config"

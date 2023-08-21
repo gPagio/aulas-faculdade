@@ -7,6 +7,8 @@ o .NET Core (multiplataforma), o ASP.NET (para aplicativos web) e outros compone
 de aplicativos desktop, móveis e web, oferecendo uma gama de recursos avançados, segurança e suporte à comunidade de desenvolvedores. 
 Com o surgimento do .NET 5 e versões posteriores, a plataforma foi unificada para fornecer uma solução coesa para desenvolvimento 
 multiplataforma e escalável.
-O CLR
+O CLR é o ambiente de execução dotnet que gerencia a execução do código escrito em  diferentes linguagens de programação que têm como 
+alvo a plataforma .NET. Ele é parte essencial do Framework .NET e do .NET Core e se assemelha muito a função da JVM (Java Virtual Machine)
+que é o ambiente de execução Java.
 
-3 - 
+3 - Olhar arquivo MostraHoraComputador.cs
