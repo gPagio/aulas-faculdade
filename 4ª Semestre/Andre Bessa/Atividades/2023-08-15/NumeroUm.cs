@@ -6,13 +6,18 @@ public class NumeroUm{
     public static void Main(string[] args){
     
         var opcao = "0";
-        int contador = 0;
+        int contador;
 
         ArrayList nomePessoa = new();
         ArrayList idadePessoa = new();
 
         while(opcao != "4"){
             while (opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
+                if (opcao != "0" && opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Opção inválida!");
+                    Console.WriteLine("Escolha entre as opções listadas no menu abaixo:");
+                }
                 Console.WriteLine("(1) - Cadastrar");
                 Console.WriteLine("(2) - Listar");
                 Console.WriteLine("(3) - Mais Velho");
@@ -23,9 +28,9 @@ public class NumeroUm{
                 switch (opcao){
                     case "1":
                         string nomeParaAdicionar;
-                        int idadeParaAdicionar;
-                        string patternNome = @"\b[A-Za-zÀ-ÿ]+(?:[-'\s][A-Za-zÀ-ÿ]+)*\b";
-                        string patternIdade = @"^[0-9]+$";
+                        string idadeParaAdicionar;
+                        string patternNome = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
+                        string patternIdade = @"\b[0-9]+\b";
                         bool nomeValido = false;
                         bool idadeValida = false;
 
@@ -38,23 +43,25 @@ public class NumeroUm{
 
                             if (nomeValido == false){
                                 Console.WriteLine("Nome inválido!");
+                                Console.WriteLine("O nome deve ter nome e sobrenome, ambos iniciados com letra maiúscula");
                                 Console.WriteLine(" ");
                             } else {
                                 nomePessoa.Add(nomeParaAdicionar);
-                                Console.WriteLine("");
+                                Console.WriteLine(" ");
                             }
                         }
 
                         while(idadeValida == false){
                             Console.Write("Digite a idade: ");
-                            idadeParaAdicionar = Convert.ToInt32(Console.ReadLine());
-                            idadeValida = Regex.IsMatch(idadeParaAdicionar.ToString(), patternIdade);
+                            idadeParaAdicionar = Console.ReadLine()!;
+                            idadeValida = Regex.IsMatch(idadeParaAdicionar, patternIdade);
 
                             if (idadeValida == false){
                                 Console.WriteLine("Idade inválida!");
+                                Console.WriteLine("A idade deve conter apenas numeros inteiros");
                                 Console.WriteLine(" ");
                             } else {
-                                idadePessoa.Add(idadeParaAdicionar);
+                                idadePessoa.Add(Convert.ToInt32(idadeParaAdicionar));
                                 Console.WriteLine("");
                             }
                         }
@@ -67,9 +74,13 @@ public class NumeroUm{
                         Console.WriteLine("(2) - Listar");
 
                         contador = 0;
-                        while(contador < nomePessoa.Count){
-                            Console.WriteLine("Nome: " + nomePessoa[contador]!.ToString() + ", idade: " + idadePessoa[contador]!.ToString());
-                            contador++;
+                        if (nomePessoa.Count == 0){
+                            Console.WriteLine("Sem registros!");
+                        } else {
+                            while(contador < nomePessoa.Count){
+                                Console.WriteLine("Nome: " + nomePessoa[contador]!.ToString() + ", idade: " + idadePessoa[contador]!.ToString());
+                                contador++;
+                            }
                         }
                         Console.WriteLine(" ");
 
@@ -81,11 +92,15 @@ public class NumeroUm{
                         Console.WriteLine("(3) - Mais Velho");
 
                         contador = 0;
-                        while(contador < nomePessoa.Count){
-                            if(Convert.ToInt32(idadePessoa[contador]) == MaiorIdade(idadePessoa)){
-                                Console.WriteLine("Nome: " + nomePessoa[contador]!.ToString() + ", idade: " + idadePessoa[contador]!.ToString());
+                        if (nomePessoa.Count == 0){
+                            Console.WriteLine("Sem registros!");
+                        } else {
+                            while(contador < nomePessoa.Count){
+                                if(Convert.ToInt32(idadePessoa[contador]) == MaiorIdade(idadePessoa)){
+                                    Console.WriteLine("Nome: " + nomePessoa[contador]!.ToString() + ", idade: " + idadePessoa[contador]!.ToString());
+                                }
+                                contador++;
                             }
-                            contador++;
                         }
                         Console.WriteLine(" ");
 

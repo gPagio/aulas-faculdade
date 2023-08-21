@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {}
+    "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {
+    "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
+        "projectUniqueName": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
         "projectName": "2023-08-15",
-        "projectPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
-        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\obj\\",
+        "projectPath": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\2023-08-15.csproj",
+        "packagesPath": "C:\\Users\\TI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TI\\Documents\\Estudos\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\Atividades\\2023-08-15\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\TI\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
