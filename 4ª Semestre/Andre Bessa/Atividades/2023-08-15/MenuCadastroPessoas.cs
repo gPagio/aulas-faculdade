@@ -12,15 +12,20 @@ public class MenuCadastroPessoas{
         string opcaoMenuCadastroTres = "(3) - Mais Velho";
         string opcaoMenuCadastroQuatro = "(4) - Sair";
 
+        Console.Clear();
+
         ArrayList nomePessoa = new();
         ArrayList idadePessoa = new();
 
         while(opcao != "4"){
             while (opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
+                Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
+                
                 if (opcao != "0" && opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
-                    Console.WriteLine("");
+                    Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
                     Console.WriteLine("Opção inválida!");
                     Console.WriteLine("Escolha entre as opções listadas no menu abaixo:");
+                    Console.WriteLine("");
                 }
                 Console.WriteLine(opcaoMenuCadastroUm);
                 Console.WriteLine(opcaoMenuCadastroDois);
@@ -38,7 +43,8 @@ public class MenuCadastroPessoas{
                         bool nomeValido = false;
                         bool idadeValida = false;
 
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
                         Console.WriteLine(opcaoMenuCadastroUm);
                         while(nomeValido == false){
                             Console.Write("Digite o nome: ");
@@ -74,7 +80,8 @@ public class MenuCadastroPessoas{
                         break;
 
                     case "2":
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
                         Console.WriteLine(opcaoMenuCadastroDois);
 
                         contador = 0;
@@ -92,7 +99,8 @@ public class MenuCadastroPessoas{
                         break;
 
                     case "3":
-                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
                         Console.WriteLine(opcaoMenuCadastroTres);
 
                         contador = 0;
@@ -112,7 +120,8 @@ public class MenuCadastroPessoas{
                         break;
                     
                     case "4":
-                            Console.WriteLine("");
+                            Console.Clear();
+                            Console.WriteLine(Menu.menuPrincipalOpcaoUm.Substring(6));
                             Console.WriteLine(opcaoMenuCadastroQuatro);
                             Console.WriteLine("Obrigado por usar nosso sistema de cadastro de pessoas!");
                             Console.WriteLine("");

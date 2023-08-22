@@ -4,6 +4,9 @@ public class ExibeNumerosImpares {
         int primeiroValor;
         int segundoValor;
 
+        Console.Clear();
+
+        Console.WriteLine(Menu.menuPrincipalOpcaoSeis.Substring(6));
         Console.Write("Insira o primeiro valor do intervalo: ");
         primeiroValor = Convert.ToInt32(Console.ReadLine());
 

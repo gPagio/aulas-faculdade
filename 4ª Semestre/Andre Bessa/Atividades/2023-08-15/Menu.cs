@@ -1,19 +1,20 @@
 public class Menu{
+
+        public static string menuPrincipalOpcaoUm = "(1) - Sistema de Cadastro de Pessoas";
+        public static string menuPrincipalOpcaoTres = "(3) - Mostrar Data e Hora do Sistema";
+        public static string menuPrincipalOpcaoQuatro = "(4) - Exibe Números Pares de 0 a 20 Usando Loop For";
+        public static string menuPrincipalOpcaoSeis = "(6) - Exibe Números Ímpares no Intervalo Informado Pelo Usuário";
+        public static string menuPrincipalOpcaoSete = "(7) - Sair";
     public static void Main(String[] args) {
         var opcao = "0";
-        string menuPrincipalOpcaoUm = "(1) - Sistema de Cadastro de Pessoas";
-        string menuPrincipalOpcaoTres = "(3) - Mostrar Data e Hora do Sistema";
-        string menuPrincipalOpcaoQuatro = "(4) - Exibe Números Pares de 0 a 20 Usando Loop For";
-        string menuPrincipalOpcaoSeis = "(6) - Exibe Números Ímpares no Intervalo Informado Pelo Usuário";
-        string menuPrincipalOpcaoSete = "(7) - Sair";
         
         Console.WriteLine("Seja bem vindo a atividade de LP1, dia 15/08/2023");
 
         while(opcao != "1" && opcao != "3" && opcao != "4" && opcao != "6" && opcao != "7") {
             if (opcao != "0" && opcao != "1" && opcao != "3" && opcao != "4" && opcao != "6" && opcao != "7"){
-                Console.WriteLine("");
+                Console.Clear();
                 Console.WriteLine("Opção inválida!");
-                Console.WriteLine("Escolha entre as opções listadas no menu abaixo:");
+                Console.WriteLine("");
             }
 
             Console.WriteLine("Escolha um exercício nos menus abaixo para testar:");
