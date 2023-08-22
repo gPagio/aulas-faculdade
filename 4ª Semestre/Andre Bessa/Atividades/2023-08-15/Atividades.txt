@@ -1,4 +1,4 @@
-﻿1 - Olhar arquivo MenuCadastroPessoas.cs
+﻿1 - Selecionar opção 1 do menu principal
 
 2 - O que é o .NET e o CLR?
 O .NET é uma plataforma de desenvolvimento de software da Microsoft que oferece ferramentas e estruturas para criar uma variedade de 
@@ -11,4 +11,25 @@ O CLR é o ambiente de execução dotnet que gerencia a execução do código es
 alvo a plataforma .NET. Ele é parte essencial do Framework .NET e do .NET Core e se assemelha muito a função da JVM (Java Virtual Machine)
 que é o ambiente de execução Java.
 
-3 - Olhar arquivo MostraHoraComputador.cs
+3 - Selecionar opção 3 do menu principal
+
+4 - Selecionar opção 4 do menu principal
+
+5 - Os tipos numéricos basicos da linguagem C# é int para números inteiros, e double para numeros decimais 
+
+6 - Selecionar opção 6 do menu principal
+
+7 - A simbologia para os operadores seguintes são:
+    E - &&
+    OU - ||
+    NEGAÇÃO - !
+
+8 - Primeiro devemos criar o projeto, para isso usamos o seguinte comando:
+        dotnet new console -o NomeDoProjeto
+
+    Em seguida, devemos compilar o projeto para que seja verificados principalmente erros de sintaxe e possíveis dependencias em falta. Esse passo
+    não é obrigatório para execução do projeto, mas é considerado boa prática que ajuda a previnir possíveis erros. Para isso usamos o comando:
+        dotnet build
+
+    Por ultimo devemos executar o programa, para isso utilizamos o comando:
+        dotnet run
