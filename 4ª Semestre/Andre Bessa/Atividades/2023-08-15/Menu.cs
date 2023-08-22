@@ -1,10 +1,10 @@
 public class Menu{
-
         public static string menuPrincipalOpcaoUm = "(1) - Sistema de Cadastro de Pessoas";
         public static string menuPrincipalOpcaoTres = "(3) - Mostrar Data e Hora do Sistema";
         public static string menuPrincipalOpcaoQuatro = "(4) - Exibe Números Pares de 0 a 20 Usando Loop For";
         public static string menuPrincipalOpcaoSeis = "(6) - Exibe Números Ímpares no Intervalo Informado Pelo Usuário";
         public static string menuPrincipalOpcaoSete = "(7) - Sair";
+
     public static void Main(String[] args) {
         var opcao = "0";
         

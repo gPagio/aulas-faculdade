@@ -2,9 +2,7 @@
 using System.Text.RegularExpressions;
 
 public class MenuCadastroPessoas{
-    
     public static void CadastrarPessoa(string[] args){
-    
         var opcao = "0";
         int contador;
         string opcaoMenuCadastroUm = "(1) - Cadastrar";
