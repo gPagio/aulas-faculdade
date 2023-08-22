@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 public class MenuCadastroPessoas{
     
-    public static void Main(string[] args){
+    public static void CadastrarPessoa(string[] args){
     
         var opcao = "0";
         int contador;
@@ -109,7 +109,8 @@ public class MenuCadastroPessoas{
                     
                     default:
                         if(opcao == "4"){
-                              Console.WriteLine("Obrigado por usar nosso programa");
+                            Console.WriteLine("");
+                            Console.WriteLine("Obrigado por usar nosso programa");
                         }
                         break;
                 }
