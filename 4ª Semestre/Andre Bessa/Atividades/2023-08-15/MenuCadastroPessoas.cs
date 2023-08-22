@@ -7,6 +7,10 @@ public class MenuCadastroPessoas{
     
         var opcao = "0";
         int contador;
+        string opcaoMenuCadastroUm = "(1) - Cadastrar";
+        string opcaoMenuCadastroDois = "(2) - Listar";
+        string opcaoMenuCadastroTres = "(3) - Mais Velho";
+        string opcaoMenuCadastroQuatro = "(4) - Sair";
 
         ArrayList nomePessoa = new();
         ArrayList idadePessoa = new();
@@ -14,14 +18,14 @@ public class MenuCadastroPessoas{
         while(opcao != "4"){
             while (opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
                 if (opcao != "0" && opcao != "1" && opcao != "2" && opcao != "3" && opcao != "4"){
-                    Console.WriteLine(" ");
+                    Console.WriteLine("");
                     Console.WriteLine("Opção inválida!");
                     Console.WriteLine("Escolha entre as opções listadas no menu abaixo:");
                 }
-                Console.WriteLine("(1) - Cadastrar");
-                Console.WriteLine("(2) - Listar");
-                Console.WriteLine("(3) - Mais Velho");
-                Console.WriteLine("(4) - Sair");
+                Console.WriteLine(opcaoMenuCadastroUm);
+                Console.WriteLine(opcaoMenuCadastroDois);
+                Console.WriteLine(opcaoMenuCadastroTres);
+                Console.WriteLine(opcaoMenuCadastroQuatro);
                 Console.Write("Escolha uma opção: ");
                 opcao = Console.ReadLine()!;
 
@@ -34,8 +38,8 @@ public class MenuCadastroPessoas{
                         bool nomeValido = false;
                         bool idadeValida = false;
 
-                        Console.WriteLine(" ");
-                        Console.WriteLine("(1) - Cadastrar");
+                        Console.WriteLine("");
+                        Console.WriteLine(opcaoMenuCadastroUm);
                         while(nomeValido == false){
                             Console.Write("Digite o nome: ");
                             nomeParaAdicionar = Console.ReadLine()!;
@@ -44,10 +48,10 @@ public class MenuCadastroPessoas{
                             if (nomeValido == false){
                                 Console.WriteLine("Nome inválido!");
                                 Console.WriteLine("O nome deve ter nome e sobrenome, ambos iniciados com letra maiúscula");
-                                Console.WriteLine(" ");
+                                Console.WriteLine("");
                             } else {
                                 nomePessoa.Add(nomeParaAdicionar);
-                                Console.WriteLine(" ");
+                                Console.WriteLine("");
                             }
                         }
 
@@ -59,7 +63,7 @@ public class MenuCadastroPessoas{
                             if (idadeValida == false){
                                 Console.WriteLine("Idade inválida!");
                                 Console.WriteLine("A idade deve conter apenas numeros inteiros");
-                                Console.WriteLine(" ");
+                                Console.WriteLine("");
                             } else {
                                 idadePessoa.Add(Convert.ToInt32(idadeParaAdicionar));
                                 Console.WriteLine("");
@@ -70,8 +74,8 @@ public class MenuCadastroPessoas{
                         break;
 
                     case "2":
-                        Console.WriteLine(" ");
-                        Console.WriteLine("(2) - Listar");
+                        Console.WriteLine("");
+                        Console.WriteLine(opcaoMenuCadastroDois);
 
                         contador = 0;
                         if (nomePessoa.Count == 0){
@@ -82,14 +86,14 @@ public class MenuCadastroPessoas{
                                 contador++;
                             }
                         }
-                        Console.WriteLine(" ");
+                        Console.WriteLine("");
 
                         opcao = "0";
                         break;
 
                     case "3":
-                        Console.WriteLine(" ");
-                        Console.WriteLine("(3) - Mais Velho");
+                        Console.WriteLine("");
+                        Console.WriteLine(opcaoMenuCadastroTres);
 
                         contador = 0;
                         if (nomePessoa.Count == 0){
@@ -102,16 +106,16 @@ public class MenuCadastroPessoas{
                                 contador++;
                             }
                         }
-                        Console.WriteLine(" ");
+                        Console.WriteLine("");
 
                         opcao = "0";
                         break;
                     
-                    default:
-                        if(opcao == "4"){
+                    case "4":
                             Console.WriteLine("");
-                            Console.WriteLine("Obrigado por usar nosso programa");
-                        }
+                            Console.WriteLine(opcaoMenuCadastroQuatro);
+                            Console.WriteLine("Obrigado por usar nosso sistema de cadastro de pessoas!");
+                            Console.WriteLine("");
                         break;
                 }
             }

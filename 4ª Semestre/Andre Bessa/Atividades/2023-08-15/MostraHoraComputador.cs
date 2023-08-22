@@ -1,8 +1,9 @@
 
 public class MostraHoraComputador{
-    public static void MostrarHora(String[] args) {
+    public static void MostrarDataHora(String[] args) {
         DateTime dataAtual = DateTime.Now;
         
         Console.WriteLine(dataAtual.ToString());
+        Console.WriteLine("");
     }
 }
