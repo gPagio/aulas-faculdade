@@ -5,8 +5,7 @@ public class MostraHoraComputador{
         Console.Clear();
 
         Console.WriteLine(Menu.menuPrincipalOpcaoTres.Substring(6));
-        DateTime dataAtual = DateTime.Now;
-        Console.WriteLine(dataAtual.ToString());
+        Console.WriteLine(DateTime.Now.ToString()); /*Retorna data e hora do sistema pela função estática da classe DateTime*/
         Console.WriteLine("");
     }
 }
