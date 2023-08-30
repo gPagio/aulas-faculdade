@@ -1,0 +1,14 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\bin\Debug\net7.0\app-alunos.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\bin\Debug\net7.0\app-alunos.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\bin\Debug\net7.0\app-alunos.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\bin\Debug\net7.0\app-alunos.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\bin\Debug\net7.0\app-alunos.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\refint\app-alunos.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\app-alunos.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-alunos\obj\Debug\net7.0\ref\app-alunos.dll
