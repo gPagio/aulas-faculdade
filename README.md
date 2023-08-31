@@ -6,7 +6,7 @@
 
 <!-- Banner ou Imagem Representativa -->
 <p align="center">
-  <img src="https://www.codigofonte.com.br/wp-content/uploads/2016/06/meme-programming.png" alt="Banner do Repositório">
+  <img src="https://openclipart.org/image/2000px/215664" alt="Banner do Repositório">
 </p>
 
 ## 🚀 Sobre o Curso
