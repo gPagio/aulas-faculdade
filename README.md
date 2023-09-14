@@ -6,7 +6,7 @@
 
 <!-- Banner ou Imagem Representativa -->
 <p align="center">
-  <img src="https://openclipart.org/image/2000px/215664" alt="Banner do Repositório">
+  <img src="https://github.com/gPagio/aulas-faculdade/blob/main/Banner.png?raw=true" alt="Banner do Repositório">
 </p>
 
 ## 🚀 Sobre o Curso
