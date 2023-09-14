@@ -15,7 +15,7 @@ Apaixonado por computadores desde cedo, sempre fui curioso em saber como funcion
 
 ## 🔭 Sobre o repositório
 
-Idealizei esse repositório para servir de uma cápsula do tempo para poder rever minha primeiras linhas de código no futuro. (Escrito em 16/08/2023 as 14:21)
+Idealizei esse repositório para servir como uma cápsula do tempo para poder rever minhas primeiras linhas de código no futuro. (Escrito em 16/08/2023 as 14:21)
 
 ## 📂 Organização do Repositório
 
