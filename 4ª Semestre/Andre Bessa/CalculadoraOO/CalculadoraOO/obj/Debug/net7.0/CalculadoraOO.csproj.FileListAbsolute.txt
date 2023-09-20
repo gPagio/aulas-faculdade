@@ -1,0 +1,14 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\bin\Debug\net7.0\CalculadoraOO.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\bin\Debug\net7.0\CalculadoraOO.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\bin\Debug\net7.0\CalculadoraOO.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\bin\Debug\net7.0\CalculadoraOO.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\bin\Debug\net7.0\CalculadoraOO.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\refint\CalculadoraOO.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\CalculadoraOO.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\CalculadoraOO\CalculadoraOO\obj\Debug\net7.0\ref\CalculadoraOO.dll
