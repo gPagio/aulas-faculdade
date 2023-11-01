@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\app-calculadora\\app-calculadora.csproj": {}
+    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\verifica-palindromo\\verifica-palindromo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\app-calculadora\\app-calculadora.csproj": {
+    "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\verifica-palindromo\\verifica-palindromo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\app-calculadora\\app-calculadora.csproj",
-        "projectName": "app-calculadora",
-        "projectPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\app-calculadora\\app-calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\verifica-palindromo\\verifica-palindromo.csproj",
+        "projectName": "verifica-palindromo",
+        "projectPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\verifica-palindromo\\verifica-palindromo.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\app-calculadora\\obj\\",
+        "outputPath": "C:\\Users\\guilh\\Documents\\GitHub\\Faculdade\\aulas-faculdade\\4ª Semestre\\Andre Bessa\\si-multivix\\verifica-palindromo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net7.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -53,6 +53,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"

@@ -1,0 +1,16 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\bin\Debug\net7.0-windows\verifica-palindromo.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\bin\Debug\net7.0-windows\verifica-palindromo.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\bin\Debug\net7.0-windows\verifica-palindromo.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\bin\Debug\net7.0-windows\verifica-palindromo.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\bin\Debug\net7.0-windows\verifica-palindromo.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica_palindromo.Form1.resources
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.csproj.GenerateResource.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\refint\verifica-palindromo.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\verifica-palindromo.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\verifica-palindromo\obj\Debug\net7.0-windows\ref\verifica-palindromo.dll

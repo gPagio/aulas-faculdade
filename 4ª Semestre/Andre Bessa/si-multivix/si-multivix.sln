@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app-calculadora", "app-calculadora\app-calculadora.csproj", "{E35368E9-AE2E-40E5-8700-B8FCAFC5AC31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-alunos", "app-alunos\app-alunos.csproj", "{D32F8970-5744-4580-ACC5-73447DCAF5C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app-alunos", "app-alunos\app-alunos.csproj", "{D32F8970-5744-4580-ACC5-73447DCAF5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "verifica-palindromo", "verifica-palindromo\verifica-palindromo.csproj", "{6AE19324-0EB2-44B6-A854-85419198BDB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D32F8970-5744-4580-ACC5-73447DCAF5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32F8970-5744-4580-ACC5-73447DCAF5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32F8970-5744-4580-ACC5-73447DCAF5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE19324-0EB2-44B6-A854-85419198BDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE19324-0EB2-44B6-A854-85419198BDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE19324-0EB2-44B6-A854-85419198BDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE19324-0EB2-44B6-A854-85419198BDB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
