@@ -29,7 +29,7 @@ namespace verifica_palindromo
 
         private Boolean verificaSeEhPalindromo(String palavraParaVerificacao)
         {
-            return palavraParaVerificacao.ToLower().Equals(new String(palavraParaVerificacao.ToLower().Reverse().ToArray()));
+            return palavraParaVerificacao.Replace(" ", "").ToLower().Equals(new String(palavraParaVerificacao.Replace(" ", "").ToLower().Reverse().ToArray()));
         }
     }
 }
