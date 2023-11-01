@@ -37,6 +37,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button1.Location = new Point(342, 261);
             button1.Name = "button1";
             button1.Size = new Size(126, 32);
@@ -47,6 +48,7 @@
             // 
             // TituloPrincipal
             // 
+            TituloPrincipal.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             TituloPrincipal.AutoSize = true;
             TituloPrincipal.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TituloPrincipal.Location = new Point(312, 190);
@@ -58,14 +60,17 @@
             // 
             // EntradaDeTexto
             // 
-            EntradaDeTexto.Location = new Point(312, 221);
+            EntradaDeTexto.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            EntradaDeTexto.Location = new Point(286, 221);
             EntradaDeTexto.Multiline = true;
             EntradaDeTexto.Name = "EntradaDeTexto";
-            EntradaDeTexto.Size = new Size(181, 34);
+            EntradaDeTexto.Size = new Size(227, 34);
             EntradaDeTexto.TabIndex = 3;
+            EntradaDeTexto.TextAlign = HorizontalAlignment.Center;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(33, 24);
@@ -78,12 +83,13 @@
             // 
             // RetornoVerificacao
             // 
-            RetornoVerificacao.AutoSize = true;
-            RetornoVerificacao.Location = new Point(302, 345);
+            RetornoVerificacao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            RetornoVerificacao.Location = new Point(286, 345);
             RetornoVerificacao.Name = "RetornoVerificacao";
-            RetornoVerificacao.Size = new Size(204, 20);
+            RetornoVerificacao.Size = new Size(227, 20);
             RetornoVerificacao.TabIndex = 5;
             RetornoVerificacao.Text = "Ser ou Nao Ser, Eis a Questão";
+            RetornoVerificacao.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 

@@ -12,10 +12,12 @@ namespace verifica_palindromo
         {
             if (verificaSeEhPalindromo(EntradaDeTexto.Text.ToString()) == true)
             {
+                RetornoVerificacao.ForeColor = Color.Green;
                 RetornoVerificacao.Text = "É PALINDROMO";
             }
             else
             {
+                RetornoVerificacao.ForeColor = Color.Red;
                 RetornoVerificacao.Text = "NÃO É PALINDROMO";
             }
         }
