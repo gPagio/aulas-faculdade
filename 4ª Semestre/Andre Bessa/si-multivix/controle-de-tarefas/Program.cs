@@ -8,20 +8,19 @@
         private static String opcao4MenuPrincipal = "4 - Buscar tarefa específica";
         private static String opcao5MenuPrincipal = "5 - Sair";
 
-        private static String opcao1MenuCase2 = "1 - ID: Remove apenas a tarefa com o ID informado";
-        private static String opcao2MenuCase2 = "2 - Nome: Remove todas as tarefas com o nome informado";
-        private static String opcao3MenuCase2 = "3 - Data: Remove todas as tarefas com a data informada";
-        private static String opcao4MenuCase2 = "4 - Voltar ao menu principal";
+        private static String opcao1MenuRemoverTarefa = "1 - ID: Remove apenas a tarefa com o ID informado";
+        private static String opcao2MenuRemoverTarefa = "2 - Nome: Remove todas as tarefas com o nome informado";
+        private static String opcao3MenuRemoverTarefa = "3 - Data: Remove todas as tarefas com a data informada";
+        private static String opcao4MenuRemoverTarefa = "4 - Voltar ao menu principal";
         static void Main(string[] args)
         {
             Controller controller = new();
             String? opcaoSeletoraMenuPrincipal = null;
 
-            Console.WriteLine("BEM VINDO AO GERENCIADOS DE TAREFAS 2000");
-            Console.WriteLine("");
-
             while (opcaoSeletoraMenuPrincipal! == null)
             {
+                Console.WriteLine("BEM VINDO AO GERENCIADOS DE TAREFAS 2000");
+                Console.WriteLine("");
                 Console.WriteLine("Escolha uma função: ");
                 Console.WriteLine(opcao1MenuPrincipal);
                 Console.WriteLine(opcao2MenuPrincipal);
@@ -35,46 +34,58 @@
                     case "1":
                         Console.Clear();
                         Console.WriteLine(opcao1MenuPrincipal);
-                        Console.WriteLine("Insira o nome da tarefa");
+                        Console.Write("Insira o nome da tarefa: ");
 
+                        //Nome tarefa
                         String nomeTarefa = null!;
-                        while (nomeTarefa == null)
+                        while (String.IsNullOrEmpty(nomeTarefa))
                         {
-                            if (nomeTarefa == null)
+                            nomeTarefa = Console.ReadLine()!.ToString();
+                            if (String.IsNullOrEmpty(nomeTarefa))
                             {
                                 Console.Clear();
                                 Console.WriteLine(opcao1MenuPrincipal);
                                 Console.WriteLine("O nome da tarefa não pode ficar vazio!");
-                                Console.WriteLine("Insira o nome da tarefa");
+                                Console.Write("Insira o nome da tarefa: ");
                             }
-                            nomeTarefa = Console.ReadLine()!.ToString();
                         }
 
+                        //Data entrega tarefa
+                        Console.Clear();
+                        Console.WriteLine(opcao1MenuPrincipal);
+                        Console.Write($"Insira a data de entrega para a tarefa {nomeTarefa}: ");
                         String dataEntregaTarefa = null!;
-                        while (dataEntregaTarefa == null)
+                        while (String.IsNullOrEmpty(dataEntregaTarefa))
                         {
                             dataEntregaTarefa = Console.ReadLine()!.ToString();
-                            if (dataEntregaTarefa! == null)
+                            if (String.IsNullOrEmpty(dataEntregaTarefa))
                             {
                                 Console.Clear();
                                 Console.WriteLine(opcao1MenuPrincipal);
                                 Console.WriteLine("A data de entrega da tarefa não pode ficar vazia!");
                                 Console.WriteLine("Insira a data de entrega da tarefa");
                             }
-                            else if (dataEntregaTarefa != null)
+                            else if (!String.IsNullOrEmpty(dataEntregaTarefa))
                             {
-                                TimeSpan validaDataEntrega = DateTime.Now.Subtract(DateTime.Parse(dataEntregaTarefa!));
+                                TimeSpan validaDataEntrega = DateTime.Parse(dataEntregaTarefa!).Subtract(DateTime.Now);
                                 if (validaDataEntrega.Days < 0)
                                 {
                                     Console.Clear();
                                     Console.WriteLine(opcao1MenuPrincipal);
                                     Console.WriteLine("A data de entrega não pode ser menor que a data atual");
+                                    Console.WriteLine("");
                                     Console.WriteLine("Insira uma data no formato DD/MM/YYYY e que seja maior que a data atual");
+                                    dataEntregaTarefa = null!;
                                 }
                             }
                         }
                         controller.AdicionarTarefa(nomeTarefa, DateTime.Parse(dataEntregaTarefa));
-
+                        
+                        Console.Clear();
+                        Console.WriteLine("Tarefa cadastrada com sucesso!");
+                        Thread.Sleep(2000);
+                        Console.Clear();
+                        
                         opcaoSeletoraMenuPrincipal = null;
                         break;
 
@@ -86,26 +97,29 @@
                         while (opcaoSeletoraCase2 == null)
                         {
                             Console.WriteLine("Escolha como deseja remover a tarefa: ");
-                            Console.WriteLine(opcao1MenuCase2);
-                            Console.WriteLine(opcao2MenuCase2);
-                            Console.WriteLine(opcao3MenuCase2);
-                            Console.WriteLine(opcao4MenuCase2);
+                            Console.WriteLine(opcao1MenuRemoverTarefa);
+                            Console.WriteLine(opcao2MenuRemoverTarefa);
+                            Console.WriteLine(opcao3MenuRemoverTarefa);
+                            Console.WriteLine(opcao4MenuRemoverTarefa);
                             opcaoSeletoraCase2 = Console.ReadLine()!.ToString();
 
                             switch (opcaoSeletoraCase2)
                             {
                                 case "1":
-                                    Guid idTask;
                                     Console.WriteLine("Insira o ID da tarefa a ser removida");
-                                    idTask = Guid.Parse(Console.ReadLine()!);
-                                    controller.RemoverTarefa(idTask);
+                                    controller.RemoverTarefaId(Console.ReadLine()!);
+                                    opcaoSeletoraCase2 = null!;
+                                    break;
 
-                                    opcaoSeletoraCase2 = null!;
-                                    break;
                                 case "2":
+                                    Console.WriteLine("Insira o nome da tarefa a ser removida");
+                                    controller.RemoverTarefaNome(Console.ReadLine()!);
                                     opcaoSeletoraCase2 = null!;
                                     break;
+
                                 case "3":
+                                    Console.WriteLine("Insira a data de criação da tarefa a ser removida");
+                                    controller.RemoverTarefaData(Console.ReadLine()!);
                                     opcaoSeletoraCase2 = null!;
                                     break;
                                 case "4":

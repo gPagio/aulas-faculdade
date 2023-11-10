@@ -30,6 +30,11 @@ namespace controle_de_tarefas
             return this.dataEntregaTarefa;
         }
 
+        public String GetDataCriacaoFormatada()
+        {
+            return this.dataEntregaTarefa.ToString("dd/MM/yyyy");
+        }
+
         public int GetDiasRestantes()
         {
             TimeSpan periodoRestante = this.GetDataCriacao().Subtract(DateTime.Now);
