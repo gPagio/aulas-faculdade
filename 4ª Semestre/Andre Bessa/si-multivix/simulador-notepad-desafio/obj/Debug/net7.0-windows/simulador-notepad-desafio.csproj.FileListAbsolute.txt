@@ -1,0 +1,16 @@
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.csproj.GenerateResource.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador_notepad_desafio.Form1.resources
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\bin\Debug\net7.0-windows\simulador-notepad-desafio.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\bin\Debug\net7.0-windows\simulador-notepad-desafio.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\bin\Debug\net7.0-windows\simulador-notepad-desafio.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\bin\Debug\net7.0-windows\simulador-notepad-desafio.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\bin\Debug\net7.0-windows\simulador-notepad-desafio.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\refint\simulador-notepad-desafio.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\simulador-notepad-desafio.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\simulador-notepad-desafio\obj\Debug\net7.0-windows\ref\simulador-notepad-desafio.dll
