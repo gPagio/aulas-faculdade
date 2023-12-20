@@ -12,3 +12,17 @@ C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bes
 C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.pdb
 C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.genruntimeconfig.cache
 C:\Users\guilh\Documents\GitHub\Faculdade\aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\ref\app-calculadora.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\bin\Debug\net7.0\app-calculadora.exe
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\bin\Debug\net7.0\app-calculadora.deps.json
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\bin\Debug\net7.0\app-calculadora.runtimeconfig.json
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\bin\Debug\net7.0\app-calculadora.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\bin\Debug\net7.0\app-calculadora.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.AssemblyInfoInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.AssemblyInfo.cs
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\refint\app-calculadora.dll
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.pdb
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\app-calculadora.genruntimeconfig.cache
+C:\Users\guilh\Documents\GitHub\Faculdade\multivix-aulas-faculdade\4ª Semestre\Andre Bessa\si-multivix\app-calculadora\obj\Debug\net7.0\ref\app-calculadora.dll

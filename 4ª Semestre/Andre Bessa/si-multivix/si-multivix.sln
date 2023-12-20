@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "controle-de-tarefas", "cont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculadora-oo", "calculadora-oo\calculadora-oo.csproj", "{AD0A8E61-B9E2-469D-9619-84260B04050A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simulador-notepad-desafio", "simulador-notepad-desafio\simulador-notepad-desafio.csproj", "{B4718977-241A-40F9-BE4E-278941E0FE2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AD0A8E61-B9E2-469D-9619-84260B04050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD0A8E61-B9E2-469D-9619-84260B04050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD0A8E61-B9E2-469D-9619-84260B04050A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4718977-241A-40F9-BE4E-278941E0FE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4718977-241A-40F9-BE4E-278941E0FE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4718977-241A-40F9-BE4E-278941E0FE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4718977-241A-40F9-BE4E-278941E0FE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

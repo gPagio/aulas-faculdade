@@ -1,5 +1,4 @@
 ﻿using controle_de_tarefas.Utils;
-using System.Text.RegularExpressions;
 
 namespace controle_de_tarefas
 {
@@ -7,12 +6,66 @@ namespace controle_de_tarefas
     {
         public static HashSet<TaskModel> tasks = new();
 
-        public void AdicionarTarefa(String task, DateTime taskCreationDate)
+        public static void AdicionarTarefa()
         {
-            tasks.Add(new TaskModel(task, taskCreationDate));
+
+            Console.Clear();
+            Console.WriteLine(MenuMessages.opcao1MenuPrincipal);
+            Console.Write("Insira o nome da tarefa: ");
+
+            //Nome tarefa
+            String nomeTarefa = null!;
+            while (String.IsNullOrEmpty(nomeTarefa))
+            {
+                nomeTarefa = Console.ReadLine()!.ToString();
+                if (String.IsNullOrEmpty(nomeTarefa))
+                {
+                    Console.Clear();
+                    Console.WriteLine(MenuMessages.opcao1MenuPrincipal);
+                    Console.WriteLine("O nome da tarefa não pode ficar vazio!");
+                    Console.Write("Insira o nome da tarefa: ");
+                }
+            }
+
+            //Data entrega tarefa
+            Console.Clear();
+            Console.WriteLine(MenuMessages.opcao1MenuPrincipal);
+            Console.Write($"Insira a data de entrega para a tarefa {nomeTarefa}: ");
+            String dataEntregaTarefa = null!;
+            while (String.IsNullOrEmpty(dataEntregaTarefa))
+            {
+                dataEntregaTarefa = Console.ReadLine()!.ToString();
+                if (String.IsNullOrEmpty(dataEntregaTarefa))
+                {
+                    Console.Clear();
+                    Console.WriteLine(MenuMessages.opcao1MenuPrincipal);
+                    Console.WriteLine("A data de entrega da tarefa não pode ficar vazia!");
+                    Console.WriteLine("Insira a data de entrega da tarefa");
+                }
+                else if (!String.IsNullOrEmpty(dataEntregaTarefa))
+                {
+                    TimeSpan validaDataEntrega = DateTime.Parse(dataEntregaTarefa!).Subtract(DateTime.Now);
+                    if (validaDataEntrega.Days < 0)
+                    {
+                        Console.Clear();
+                        Console.WriteLine(MenuMessages.opcao1MenuPrincipal);
+                        Console.WriteLine("A data de entrega não pode ser menor que a data atual");
+                        Console.WriteLine("");
+                        Console.WriteLine("Insira uma data no formato DD/MM/YYYY e que seja maior que a data atual");
+                        dataEntregaTarefa = null!;
+                    }
+                }
+            }
+
+            tasks.Add(new TaskModel(nomeTarefa, DateTime.Parse(dataEntregaTarefa)));
+ 
+            Console.Clear();
+            Console.WriteLine("Tarefa cadastrada com sucesso!");
+            Thread.Sleep(2000);
+            Console.Clear();
         }
 
-        public IEnumerable<TaskModel> BuscarTarefa(Guid idTask)
+        public static IEnumerable<TaskModel> BuscarTarefa(Guid idTask)
         {
             foreach (TaskModel task in tasks)
             {
@@ -23,7 +76,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public IEnumerable<TaskModel> BuscarTarefa(String nameTask)
+        public static IEnumerable<TaskModel> BuscarTarefa(String nameTask)
         {
             foreach (TaskModel task in tasks)
             {
@@ -34,7 +87,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public IEnumerable<TaskModel> BuscarTarefa(DateTime taskCreationDate)
+        public static IEnumerable<TaskModel> BuscarTarefa(DateTime taskCreationDate)
         {
             foreach (TaskModel task in tasks)
             {
@@ -45,7 +98,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public void RemoverTarefaId(String idTask)
+        public static void RemoverTarefaId(String idTask)
         {
 
             Guid id = Guid.Parse(idTask);
@@ -76,7 +129,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public void RemoverTarefaNome(String nameTask)
+        public static void RemoverTarefaNome(String nameTask)
         {
             bool removeuTarefa = false;
             foreach (TaskModel task in tasks)
@@ -105,7 +158,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public void RemoverTarefaData(String data)
+        public static void RemoverTarefaData(String data)
         {
             while (RegexData.ValidaFormatoDataSimples(data) == false)
             {
@@ -143,7 +196,7 @@ namespace controle_de_tarefas
             }
         }
 
-        public void ListarTarefasCadastradas()
+        public static void ListarTarefasCadastradas()
         {
             foreach (TaskModel item in tasks)
             {
